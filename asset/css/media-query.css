@@ -1,0 +1,58 @@
+@font-face{
+	font-family: myFirstFont;
+	src: url("../font/NetflixSans-Bold.otf");
+}
+
+@font-face{
+	font-family: light;
+	src: url("../font/NetflixSans-Light.otf");
+}
+
+@font-face{
+	font-family: mediumNet;
+	src: url("../font/NetflixSans-Medium.otf");
+}
+
+@font-face{
+	font-family: regular;
+	src: url("../font/NetflixSans-Regular.otf");
+}
+
+@media(max-width: 768px){
+	.header{width: 95%;}
+	.header .btn{font-size: 15px;}
+	.showcase h2{font-size: 30px;}
+	.showcase p{font-size: 17px;}
+	.input{width: 90%; flex-direction: column; margin: -155px auto; text-align: center; gap: 15px;}
+	.input > input{width: 100%;}
+	.input > a{margin: auto auto; width: 55%; padding: 15px 20px; font-size: 25px; font-weight: 400; font-family: light;}
+	section.tv-show{flex-direction: column;}
+	.text-tv-show{width: 90%; margin: auto;}
+	.tv-show img{width: 90%;}
+	.text-tv-show h1{font-size: 40px; text-align: center;}
+	.text-tv-show p{font-size: 20px; text-align: center;}
+	.download-section{flex-direction: column;}
+	.download-img{width: 90%; margin: auto;}
+	.download-img img{width: 100%; margin-top: 70px;}
+	.download-box{width: 80%; left: 33px;}
+	img.Stranger{height: 80px;}
+	img.download-icon{margin-top: -10px;}
+	.download-text{width: 90%; margin: auto;}
+	.download-text h1{font-size: 30px; text-align: center;}
+	.download-text p{font-size: 17px; text-align: center;}
+	.stream-text{width: 90%;}
+	.stream-text h1{font-size: 40px; text-align: center;}
+	.stream-text p{font-size: 20px; text-align: center;}
+	.mt{margin-top: -140px;}
+	.question > h1{font-size: 25px;}
+	.question > .accordion{width: 80%; font-size: 17px; font-weight: 400;}
+	.panel {width: 80%; padding: 20px;}.panel > p{ font-size: 17px;}
+	p.accordion-text{width: 80%; font-size: 17px; text-align: center; margin: 50px auto 10px auto;}
+	.accordion-div{width: 90%; flex-direction: column;}
+	.accordion-div input{width: 100%;}
+	.accordion-div > a{margin: auto auto; width: 55%; padding: 15px 20px; font-size: 25px; font-weight: 400; font-family: light;}
+	.footer-div{flex-direction: column;}
+	footer > p{margin-left: 42px;}
+	p.location{margin-bottom: 20px;}
+	div.watching-box{display: block;}
+}
